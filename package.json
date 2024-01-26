@@ -1,0 +1,27 @@
+{
+  "name": "imgtopdf",
+  "version": "1.0.0",
+  "description": "img to pdf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "author": "naurangi",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "http-errors": "^2.0.0",
+    "jade": "^1.9.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "pdfkit": "^0.14.0",
+    "sortablejs": "^1.15.2"
+  }
+}
